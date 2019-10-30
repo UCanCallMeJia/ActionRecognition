@@ -5,9 +5,9 @@ A complete action recognition project
 **Libraries** `Numpy`, `Keras`, `opencv-python`, `matplotlib`  
 **Hardware** Camera,PC
 # Usage  
-***The dataset is too big to up load***  
-**Generate your video dataset**  
+***The dataset is too big to up load. So firstly you have to make your own dataset.***  
+**Generate your video dataset:**  
  Make some videos with your camera. Run **video_manully_add_label.py** to generate pickle dataset.  
-**Train**  
+**Train:**  
  Run **train_networks.py** to train the model.  
  some pretrained models are used like Resnet50,VGG16 and so on. You can choose one you like to extract features.
