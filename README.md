@@ -1,5 +1,5 @@
 # ActionRecognition
-A complete action recognition project
+Action recognition in videos
 # Introduction 
 **Platform** Python3.6  
 **Libraries** `Numpy`, `Keras`, `opencv-python`, `matplotlib`  
