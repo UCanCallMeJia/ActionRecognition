@@ -40,6 +40,6 @@ Some pretrained models are used like Resnet50,VGG16 and so on. The models are pr
 
 ### **Model evaluation and visualization :**  
 In *pred_ActionLabel_ResNet.py*, you can load trained model to evaluate on testset.  
-Functions `predict_ActionLabel_to_NewVideo_new()`, `add_ActionLabel_to_frames()`, `frames_to_videos()` are used to visualize the predict label on videos.  
+Functions `predict_ActionLabel_to_NewVideo_new()`, `add_ActionLabel_to_frames()`, `frames_to_videos()` are used to visualize the predict label on videos. Follow instructions in the code.
 
 Contact： jiazx@buaa.edu.cn
