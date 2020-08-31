@@ -2,7 +2,7 @@
 Action recognition in videos with pretrained Resnet50.
 
 # Introduction 
-
+  
 **Platform** Python3.6  
 **Libraries** `Numpy`, `Tensorflow`, `Keras`, `opencv-python`, `matplotlib`  
 **Hardware** Camera,PC
@@ -30,7 +30,7 @@ Run **train_networks.py** to train the model.
 Some pretrained models are used like Resnet50,VGG16 and so on. The models are pretrained on 'imagenet'. You can choose one you like to extract features.  
 ```python
     if mode=='train':
-        x_train,y_train = get_data(mode='train')
+        x_train,y_train = get_data(mode = 'train')
         x_train,y_train = process_data(x=x_train, y=y_train)
         y_train = np_utils.to_categorical(y_train,3)
         # choose your model here.
